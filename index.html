@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="style.css">
+  
+  <!--Icone d'onglet-->
+  <link rel="icon" href="Contact-img-Onglet.jpg">
+
+  <!--Icones-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <!--Section principale 1-->
+    <section class="info">
+      <h1>Contactez-Nous</h1>
+      <article class="callUs">
+        <article class="iconCall">
+          <i class="ri-phone-fill"></i>
+          <h5>Appelez-Nous</h5>
+        </article>
+        <p>+243 810-191-650</p>
+      </article>
+
+      <article class="location">
+        <article class="iconLocation">
+          <i class="ri-map-pin-line"></i>
+          <h5>Localisation</h5>
+        </article>
+        <p>121 Rock Sreet, 21 Avenue, New York, NY 92103-9000</p>
+      </article>
+
+      <article class="business">
+        <article class="iconBusiness">
+          <i class="ri-time-fill"></i>
+          <h5>Heures d'Ouverture</h5>
+        </article>
+        <p>Lun – Ven …… 9H – 18H, Sam, Dim ....… Fermé</p>
+      </article>
+    </section>
+
+    <!--Section principale 2-->
+    <form method="post">
+      <article class="mailName">
+        <section>
+          <label for="email">Email</label><br>
+          <input type="email" id="email" placeholder="Entrez une adresse mail valide" required>
+        </section>
+        <section>
+          <label for="name">Nom</label><br>
+          <input type="text" id="name" name="name" placeholder="Saisissez votre nom" required>
+        </section>
+      </article>
+
+      <article class="texta">
+        <label for="address">Adresse</label><br>
+        <input type="text" id="address" name="adresse" placeholder="Saisissez votre adresse physique">
+      </article>
+
+      <article>
+        <label for="message">Message</label><br>
+        <textarea id="message" name="message" placeholder="Saisissez votre message" rows="5" cols="35"></textarea>
+      </article>
+
+      <article>
+        <input type="submit" value="Envoyer">
+      </article>
+    </form>
+
+  </main>
+</body>
+
+</html>
